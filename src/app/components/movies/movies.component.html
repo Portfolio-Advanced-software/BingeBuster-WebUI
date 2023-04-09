@@ -1,0 +1,7 @@
+<div class="movies">
+    <div class="movie" *ngFor="let movie of movies; let i = index;">
+        <div class="id">{{ i }}</div>
+        <div class="name">{{ movie.name }}</div>
+        <div class="year">{{ movie.year }}</div>
+    </div>
+</div>
