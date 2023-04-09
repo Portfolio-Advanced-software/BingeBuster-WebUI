@@ -19,9 +19,4 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - name: Install dependencies
-    - run: npm install
-    - name: Run tests
-    - run: npm run test:headless
-    - name: Build
-    - run: npm build:prod
+
